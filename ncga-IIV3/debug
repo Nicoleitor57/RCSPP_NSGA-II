@@ -1,0 +1,22 @@
+# # Makefile
+# CC = gcc
+# CFLAGS = -Wall -O2 -g
+
+# OBJS = main.o graphreader.o model.o
+
+# all: main
+
+# main: $(OBJS)
+# 	$(CC) $(CFLAGS) -o main $(OBJS)
+
+# main.o: main.c graphreader.c model.c
+# 	$(CC) $(CFLAGS) -c main.c
+
+# graphreader.o: graphreader.c graphreader.h
+# 	$(CC) $(CFLAGS) -c graphreader.c
+
+# model.o: model.c model.h
+# 	$(CC) $(CFLAGS) -c model.c
+
+# clean:
+# 	rm -f *.o main

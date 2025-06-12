@@ -1,0 +1,100 @@
+reset;
+model rcsppRUN.mod;
+data rcsppRUN.dat;
+
+option solver gurobi;
+
+param Ttotal             default 0 ;
+param TCPU1{objetivos}   default 0 ;
+param MVF{objetivos}     default 0 ;
+param PVF{objetivos}     default 0 ;
+param f1{objetivos}      default 0 ;
+param f2{objetivos}      default 0 ;
+
+param TCPU2{ejecuciones} default 0 ;
+param FN1{ejecuciones}   default 0 ;
+param FN2{ejecuciones}   default 0 ;
+param F1{ejecuciones}    default 0 ;
+param F2{ejecuciones}    default 0 ;
+param BT1{ejecuciones}   default 0 ;
+param BT2{ejecuciones}   default 0 ;
+
+
+############################################################################################
+############################# Busqueda del mejor y peor valor ##############################
+############################################################################################
+
+
+for {gg in objetivos}{
+
+  printf "  Objetivo ::::::: %s\n", gg ;
+
+  let g := gg ;
+
+  objective FO1 ;
+  let Ttotal := time();
+  solve ;
+  let TCPU1[gg] := time() - Ttotal ;
+
+  for {i in objetivos}{
+    if F[i] < MV[i] then {
+      let MV[i] := F[i] ;
+    }
+    if F[i] > PV[i] then {
+      let PV[i] := F[i] ;
+    }
+  }
+  for {i in objetivos}{
+    let MVF[i] := MV[i] ;
+    let PVF[i] := PV[i] ;
+  }
+
+  let f1[gg] := F[1] ;
+  let f2[gg] := F[2] ;
+
+  reset data x, arrival_time, F;
+}
+
+
+# Ajuste pequeño
+for {i in objetivos}{
+  let PV[i]  := PV[i] * 2  ;
+  let PVF[i] := PV[i] ;
+}
+
+############################################################################################
+############################ Busqueda de la frontera de pareto #############################
+############################################################################################
+
+for {gg in ejecuciones}{
+
+  printf "==> Ejecucion ::::::: %s\n", gg ;
+
+  for {i in objetivos}{
+    let betha[i] := sigma[gg,i] ;
+  }
+
+  objective FO2 ;
+  let Ttotal := time() ;
+  solve ;
+  let TCPU2[gg] := time() - Ttotal ;
+
+  let FN1[gg] := (F[1] - PV[1])/(MV[1] - PV[1]) ;
+  let FN2[gg] := (F[2] - PV[2])/(MV[2] - PV[2]) ;
+  let F1[gg] := F[1] ;
+  let F2[gg] := F[2] ;
+  let BT1[gg] := sigma[gg,1] ;
+  let BT2[gg] := sigma[gg,2] ;
+
+  reset data x, arrival_time, F;
+}
+
+
+############################################################################################
+################################ Resultados por instancia ##################################
+############################################################################################
+
+printf "\n\n" ;
+display MVF, PVF, TCPU1, f1, f2 ;
+display FN1, FN2, F1, F2, TCPU2 ;
+

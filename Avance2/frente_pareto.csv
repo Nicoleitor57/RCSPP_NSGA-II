@@ -1,0 +1,667 @@
+  Objetivo ::::::: 1
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 21
+16 simplex iterations
+1 branching node
+  Objetivo ::::::: 2
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 43
+23 simplex iterations
+1 branching node
+
+rcspp.run, line 96 (offset 2598):
+	syntax error
+context:  let  >>> nombre_base  <<< := sprintf "ruta_%.3f.txt", sigma[gg,1];
+ampl: reset;
+ampl: include rcspp.run;
+  Objetivo ::::::: 1
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 21
+16 simplex iterations
+1 branching node
+  Objetivo ::::::: 2
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 43
+23 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 1
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 4.347826087e-07
+22 simplex iterations
+1 branching node
+Error at _cmdno 93 executing "if" command
+(file rcspp.run, line 94, offset 2568):
+	invalid subscript x['n1','n1']
+ampl: reset;
+ampl: include rcspp.run;
+  Objetivo ::::::: 1
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 21
+16 simplex iterations
+1 branching node
+  Objetivo ::::::: 2
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 43
+23 simplex iterations
+1 branching node
+
+rcspp.run, line 91 (offset 2467):
+	Abandoning compound command to accept declaration of archivoRuta.
+
+context:  param archivoRuta  >>> symbolic; <<< 
+ampl: reset;
+ampl: include rcspp.run;
+  Objetivo ::::::: 1
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 21
+16 simplex iterations
+1 branching node
+  Objetivo ::::::: 2
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 43
+23 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 1
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 4.347826087e-07
+22 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 2
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.004347826087
+20 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 3
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.008695652174
+19 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 4
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.01304347826
+18 simplex iterations
+1 branching node
+absmipgap=5.55112e-17, relmipgap=0
+==> Ejecucion ::::::: 5
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.01739130435
+18 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 6
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.02173913043
+19 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 7
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.02608695652
+20 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 8
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.02830188679
+20 simplex iterations
+1 branching node
+absmipgap=5.55112e-17, relmipgap=0
+==> Ejecucion ::::::: 9
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.01886792453
+18 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 10
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.009433962264
+18 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 11
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 9.433962265e-07
+18 simplex iterations
+1 branching node
+absmipgap=1.11022e-16, relmipgap=0
+
+
+:  MVF  PVF TCPU1   f1   f2    :=
+1   21   44    0    21   48
+2   43   96    0    22   43
+;
+
+:      FN1        FN2     F1   F2 TCPU2    :=
+1    0.956522   1         22   43    0
+2    0.956522   1         22   43    0
+3    0.956522   1         22   43    0
+4    0.956522   1         22   43    0
+5    0.956522   1         22   43    0
+6    0.956522   1         22   43    1
+7    0.956522   1         22   43    0
+8    1          0.90566   21   48    0
+9    1          0.90566   21   48    0
+10   1          0.90566   21   48    0
+11   1          0.90566   21   48    0
+;
+
+ampl: reset;
+ampl: include rcspp.run;
+  Objetivo ::::::: 1
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 21
+16 simplex iterations
+1 branching node
+  Objetivo ::::::: 2
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 43
+23 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 1
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 4.347826087e-07
+22 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 2
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.004347826087
+20 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 3
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.008695652174
+19 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 4
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.01304347826
+18 simplex iterations
+1 branching node
+absmipgap=5.55112e-17, relmipgap=0
+==> Ejecucion ::::::: 5
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.01739130435
+18 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 6
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.02173913043
+19 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 7
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.02608695652
+20 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 8
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.02830188679
+20 simplex iterations
+1 branching node
+absmipgap=5.55112e-17, relmipgap=0
+==> Ejecucion ::::::: 9
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.01886792453
+18 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 10
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.009433962264
+18 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 11
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 9.433962265e-07
+18 simplex iterations
+1 branching node
+absmipgap=1.11022e-16, relmipgap=0
+
+
+:  MVF  PVF TCPU1   f1   f2    :=
+1   21   44    1    21   48
+2   43   96    0    22   43
+;
+
+:      FN1        FN2     F1   F2 TCPU2    :=
+1    0.956522   1         22   43    0
+2    0.956522   1         22   43    0
+3    0.956522   1         22   43    0
+4    0.956522   1         22   43    0
+5    0.956522   1         22   43    0
+6    0.956522   1         22   43    0
+7    0.956522   1         22   43    0
+8    1          0.90566   21   48    0
+9    1          0.90566   21   48    0
+10   1          0.90566   21   48    0
+11   1          0.90566   21   48    0
+;
+
+ampl: reset;
+ampl: include rcspp.run;
+  Objetivo ::::::: 1
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 21
+16 simplex iterations
+1 branching node
+  Objetivo ::::::: 2
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 43
+23 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 1
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 4.347826087e-07
+22 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 2
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.004347826087
+20 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 3
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.008695652174
+19 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 4
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.01304347826
+18 simplex iterations
+1 branching node
+absmipgap=5.55112e-17, relmipgap=0
+==> Ejecucion ::::::: 5
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.01739130435
+18 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 6
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.02173913043
+19 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 7
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.02608695652
+20 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 8
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.02830188679
+20 simplex iterations
+1 branching node
+absmipgap=5.55112e-17, relmipgap=0
+==> Ejecucion ::::::: 9
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.01886792453
+18 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 10
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.009433962264
+18 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 11
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 9.433962265e-07
+18 simplex iterations
+1 branching node
+absmipgap=1.11022e-16, relmipgap=0
+
+
+:  MVF  PVF TCPU1   f1   f2    :=
+1   21   44    0    21   48
+2   43   96    0    22   43
+;
+
+:      FN1        FN2     F1   F2 TCPU2    :=
+1    0.956522   1         22   43    0
+2    0.956522   1         22   43    0
+3    0.956522   1         22   43    0
+4    0.956522   1         22   43    0
+5    0.956522   1         22   43    0
+6    0.956522   1         22   43    0
+7    0.956522   1         22   43    0
+8    1          0.90566   21   48    0
+9    1          0.90566   21   48    0
+10   1          0.90566   21   48    0
+11   1          0.90566   21   48    1
+;
+
+ampl: reset;
+ampl: include rcspp.run;
+  Objetivo ::::::: 1
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 21
+16 simplex iterations
+1 branching node
+  Objetivo ::::::: 2
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 43
+23 simplex iterations
+1 branching node
+
+rcspp.run, line 92 (offset 2467):
+	syntax error
+context:  let  >>> dist_total  <<< := sum{(i,j) in ARCS} dist[i,j] * x[i,j];
+ampl: reset;
+ampl: include rcspp.run;
+  Objetivo ::::::: 1
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 21
+16 simplex iterations
+1 branching node
+  Objetivo ::::::: 2
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 43
+23 simplex iterations
+1 branching node
+
+rcspp.run, line 99 (offset 2733):
+	syntax error
+context:  let  >>> archivoRuta  <<< := "ruta_alpha_" & sprintf("%.2f", sigma[gg,1]) & "_" & sprintf("%.2f", sigma[gg,2]) & ".txt";
+ampl: reset;
+ampl: include rcspp.run;
+  Objetivo ::::::: 1
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 21
+16 simplex iterations
+1 branching node
+  Objetivo ::::::: 2
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 43
+23 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 1
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 4.347826087e-07
+22 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 2
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.004347826087
+20 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 3
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.008695652174
+19 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 4
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.01304347826
+18 simplex iterations
+1 branching node
+absmipgap=5.55112e-17, relmipgap=0
+==> Ejecucion ::::::: 5
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.01739130435
+18 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 6
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.02173913043
+19 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 7
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.02608695652
+20 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 8
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.02830188679
+20 simplex iterations
+1 branching node
+absmipgap=5.55112e-17, relmipgap=0
+==> Ejecucion ::::::: 9
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.01886792453
+18 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 10
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.009433962264
+18 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 11
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 9.433962265e-07
+18 simplex iterations
+1 branching node
+absmipgap=1.11022e-16, relmipgap=0
+
+
+:  MVF  PVF TCPU1   f1   f2    :=
+1   21   44    0    21   48
+2   43   96    1    22   43
+;
+
+:      FN1        FN2     F1   F2 TCPU2    :=
+1    0.956522   1         22   43    0
+2    0.956522   1         22   43    0
+3    0.956522   1         22   43    0
+4    0.956522   1         22   43    0
+5    0.956522   1         22   43    0
+6    0.956522   1         22   43    0
+7    0.956522   1         22   43    0
+8    1          0.90566   21   48    0
+9    1          0.90566   21   48    0
+10   1          0.90566   21   48    0
+11   1          0.90566   21   48    0
+;
+
+ampl: reset;
+ampl: include rcspp.run;
+  Objetivo ::::::: 1
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 25
+38 simplex iterations
+1 branching node
+  Objetivo ::::::: 2
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 51
+113 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 1
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 9.677419355e-07
+102 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 2
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.009677419355
+81 simplex iterations
+1 branching node
+absmipgap=2.77556e-17, relmipgap=0
+==> Ejecucion ::::::: 3
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.01935483871
+97 simplex iterations
+1 branching node
+absmipgap=1.11022e-16, relmipgap=0
+==> Ejecucion ::::::: 4
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.02903225806
+82 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 5
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.03870967742
+71 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 6
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.04838709677
+77 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 7
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.05668817204
+71 simplex iterations
+1 branching node
+absmipgap=1.11022e-16, relmipgap=0
+==> Ejecucion ::::::: 8
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.048
+55 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 9
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.032
+49 simplex iterations
+1 branching node
+absmipgap=1.11022e-16, relmipgap=0
+==> Ejecucion ::::::: 10
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.016
+51 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 11
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 1.6e-06
+50 simplex iterations
+1 branching node
+
+
+:  MVF   PVF TCPU1   f1   f2    :=
+1   25    56    1    25   63
+2   51   126    0    28   51
+;
+
+:      FN1        FN2      F1   F2 TCPU2    :=
+1    0.903226   1          28   51    0
+2    0.903226   1          28   51    0
+3    0.903226   1          28   51    1
+4    0.903226   1          28   51    0
+5    0.903226   1          28   51    0
+6    0.903226   1          28   51    0
+7    0.967742   0.906667   26   58    0
+8    1          0.84       25   63    0
+9    1          0.84       25   63    0
+10   1          0.84       25   63    0
+11   1          0.84       25   63    0
+;
+
+ampl: reset;
+ampl: include rcspp.run;
+  Objetivo ::::::: 1
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 25
+38 simplex iterations
+1 branching node
+  Objetivo ::::::: 2
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 51
+113 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 1
+Error at _cmdno 77 executing "let" command
+(file rcspp.run, line 78, offset 2094):
+error processing param sigma:
+	20 invalid subscripts discarded:
+	sigma[12,1]
+	sigma[12,2]
+	sigma[13,1]
+	and 17 more.
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 9.677419355e-07
+102 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 2
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.004838709677
+86 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 3
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.009677419355
+81 simplex iterations
+1 branching node
+absmipgap=2.77556e-17, relmipgap=0
+==> Ejecucion ::::::: 4
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.01451612903
+86 simplex iterations
+1 branching node
+absmipgap=5.55112e-17, relmipgap=0
+==> Ejecucion ::::::: 5
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.01935483871
+97 simplex iterations
+1 branching node
+absmipgap=1.11022e-16, relmipgap=0
+==> Ejecucion ::::::: 6
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.02419354839
+97 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 7
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.02903225806
+82 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 8
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.03387096774
+82 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 9
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.03870967742
+71 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 10
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.0435483871
+73 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 11
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.04838709677
+77 simplex iterations
+1 branching node
+
+
+:  MVF   PVF TCPU1   f1   f2    :=
+1   25    56    0    25   63
+2   51   126    0    28   51
+;
+
+:      FN1    FN2   F1   F2 TCPU2    :=
+1    0.903226   1   28   51    0
+2    0.903226   1   28   51    0
+3    0.903226   1   28   51    0
+4    0.903226   1   28   51    0
+5    0.903226   1   28   51    0
+6    0.903226   1   28   51    0
+7    0.903226   1   28   51    0
+8    0.903226   1   28   51    0
+9    0.903226   1   28   51    0
+10   0.903226   1   28   51    0
+11   0.903226   1   28   51    0
+;
+
+ampl: reset;
+ampl: include rcspp.run;
+  Objetivo ::::::: 1
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 25
+38 simplex iterations
+1 branching node
+  Objetivo ::::::: 2
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 51
+113 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 1
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 9.677419355e-07
+102 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 2
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.004838709677
+86 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 3
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.009677419355
+81 simplex iterations
+1 branching node
+absmipgap=2.77556e-17, relmipgap=0
+==> Ejecucion ::::::: 4
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.01451612903
+86 simplex iterations
+1 branching node
+absmipgap=5.55112e-17, relmipgap=0
+==> Ejecucion ::::::: 5
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.01935483871
+97 simplex iterations
+1 branching node
+absmipgap=1.11022e-16, relmipgap=0
+==> Ejecucion ::::::: 6
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.02419354839
+97 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 7
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.02903225806
+82 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 8
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.03387096774
+82 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 9
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.03870967742
+71 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 10
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.0435483871
+73 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 11
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.04838709677
+77 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 12
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.05322580645
+74 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 13
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.05668817204
+71 simplex iterations
+1 branching node
+absmipgap=1.11022e-16, relmipgap=0
+==> Ejecucion ::::::: 14
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.0536344086
+69 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 15
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.048
+55 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 16
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.04
+51 simplex iterations
+1 branching node
+absmipgap=2.22045e-16, relmipgap=0
+==> Ejecucion ::::::: 17
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.032
+49 simplex iterations
+1 branching node
+absmipgap=1.11022e-16, relmipgap=0
+==> Ejecucion ::::::: 18
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.024
+50 simplex iterations
+1 branching node
+absmipgap=8.32667e-17, relmipgap=0
+==> Ejecucion ::::::: 19
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.016
+51 simplex iterations
+1 branching node
+==> Ejecucion ::::::: 20
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 0.008
+49 simplex iterations
+1 branching node
+absmipgap=5.55112e-17, relmipgap=0
+==> Ejecucion ::::::: 21
+Gurobi 12.0.1: Gurobi 12.0.1: optimal solution; objective 1.6e-06
+50 simplex iterations
+1 branching node
+
+
+:  MVF   PVF TCPU1   f1   f2    :=
+1   25    56    1    25   63
+2   51   126    0    28   51
+;
+
+:      FN1        FN2      F1   F2 TCPU2    :=
+1    0.903226   1          28   51    0
+2    0.903226   1          28   51    0
+3    0.903226   1          28   51    0
+4    0.903226   1          28   51    0
+5    0.903226   1          28   51    0
+6    0.903226   1          28   51    0
+7    0.903226   1          28   51    0
+8    0.9

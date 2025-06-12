@@ -1,0 +1,13 @@
+# Archivos compilados de C
+*.o
+*.exe
+
+# Archivos de datos y resultados
+*.dat
+*.out
+*.txt
+log_file
+
+# Carpetas de entorno de Python y VSCode
+__pycache__/
+.vscode/
